@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+body{
+    font-family: sans-serif;
+    background-color: green;
+}
+.container{
+    margin:0 auto;
+}
+/************************************** Tablet **************************************/
+@media screen and (min-width:650px){
+    body{
+        background-color: orange;
+    }
+}
+/************************************** Desktop **************************************/
+@media screen and (min-width:900px){
+    body{
+        background-color: red;
+    }
+}
