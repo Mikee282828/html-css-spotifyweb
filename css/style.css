@@ -20,7 +20,7 @@ main{
     width:10%;
     height:90%;
     background-color: black;
-    padding:1rem;
+    padding:0.3rem;
     overflow: auto;
     display:flex;
     flex-direction: column;
@@ -28,9 +28,6 @@ main{
 }
 .sidebar-item>img{
     width:100%;
-}
-.sidebar.flex-container{
-    
 }
 [alt="logo"]{
     display:none;
@@ -46,8 +43,8 @@ main{
 }
 .sidebar-item>[alt="profile"]{
     margin-top:0.5rem;
-    height:2rem;
-    width:2rem;
+    height:1.5rem;
+    width:1.5rem;
     background-color: grey;
     border-radius: 50%;
     object-fit: cover;
@@ -135,6 +132,7 @@ hr{
 @media screen and (min-width:650px){
     .sidebar{
         width:30%;
+        padding:1rem;
     }
     main{
         width:70%;
