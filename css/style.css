@@ -233,6 +233,9 @@ hr{
     .right-control{
         width:10.5rem;
     }
+    .upgrade{
+        height:64px; 
+    }
 }
 /************************************** big Tablet **************************************/
 @media screen and (min-width:900px){
@@ -243,6 +246,7 @@ hr{
         flex-direction: row;
         gap:1rem;
     }
+    
 }
 /************************************** Desktop **************************************/
 @media screen and (min-width:1200px){
