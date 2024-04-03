@@ -17,6 +17,7 @@ main{
 }
 /************************************** SideBar **************************************/
 .sidebar{
+    position:relative;
     width:50px;
     height:calc(100% - 100px);
     background-color: black;
@@ -102,6 +103,16 @@ hr{
     padding-top:0.5rem;
     padding-bottom:0.5rem;
     font-size: 0.8rem;
+    position:relative;
+}
+.category-item-selected{
+    margin-top:0.2rem;
+    background-color: rgb(173, 255, 47);
+    width:40%;
+    height:1px;
+    position:relative;
+    left:50%;
+    transform: translate(-50%,0);
 }
 .songs{
     display:flex;
@@ -197,7 +208,7 @@ hr{
     margin-right:0.5rem;
 }
 /************************************** Tablet **************************************/
-@media screen and (min-width:650px){
+@media screen and (min-width:500px){
     .sidebar{
         width:12rem;
         padding:1rem;
@@ -235,6 +246,14 @@ hr{
     }
     .upgrade{
         height:64px; 
+    }
+    .sidebar-item-selected{
+        height:2rem;
+        width:2px;
+        left: 0;
+        background-color: rgb(173, 255, 47);
+        position:absolute;
+
     }
 }
 /************************************** big Tablet **************************************/
