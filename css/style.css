@@ -291,6 +291,7 @@ hr{
     .sidebar-item>img{
         width:17%;
     }
+    
     [alt="logo-small"]{
         display: none;
     }
