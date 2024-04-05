@@ -177,7 +177,7 @@ hr{
     color:white;
     display: flex;
     justify-content: space-between;
-    z-index: 999x;
+    z-index: 999;
 }
 .left-control,.mid-control,.right-control,.left-control-icon{
     display:flex;
@@ -307,9 +307,11 @@ hr{
     }
     .right-control{
         width:10.5rem;
-    }
-    .upgrade{
+    }.upgrade{
         height:64px; 
+    }
+    .content{
+        height:calc(100% - 64px);
     }
     .sidebar-item-selected{
         height:2rem;
